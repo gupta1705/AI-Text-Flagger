@@ -1,0 +1,4 @@
+group,n,coverage,accuracy_decided,labelled_ai,labelled_human,uncertain
+All texts,1500,96.53,99.52,49.47,47.07,3.47
+Human texts,750,95.07,99.02,0.93,94.13,4.93
+AI texts,750,98.0,100.0,98.0,0.0,2.0

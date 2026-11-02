@@ -1,0 +1,25 @@
+test_set,test_set_name,version,group,n,coverage,accuracy_decided,labelled_ai,labelled_human,uncertain
+test,HC3 test,v1,All texts,1500,96.53,99.52,49.47,47.07,3.47
+test,HC3 test,v1,Human texts,750,95.07,99.02,0.93,94.13,4.93
+test,HC3 test,v1,AI texts,750,98.0,100.0,98.0,0.0,2.0
+test,HC3 test,v2,All texts,1500,81.4,94.43,51.2,30.2,18.6
+test,HC3 test,v2,Human texts,750,69.47,86.95,9.07,60.4,30.53
+test,HC3 test,v2,AI texts,750,93.33,100.0,93.33,0.0,6.67
+test_mage,MAGE test (in-distribution),v1,All texts,2000,83.0,65.9,14.35,68.65,17.0
+test_mage,MAGE test (in-distribution),v1,Human texts,1000,84.1,97.98,1.7,82.4,15.9
+test_mage,MAGE test (in-distribution),v1,AI texts,1000,81.9,32.97,27.0,54.9,18.1
+test_mage,MAGE test (in-distribution),v2,All texts,2000,59.7,86.01,30.6,29.1,40.3
+test_mage,MAGE test (in-distribution),v2,Human texts,1000,66.1,81.39,12.3,53.8,33.9
+test_mage,MAGE test (in-distribution),v2,AI texts,1000,53.3,91.74,48.9,4.4,46.7
+test_ood,"MAGE OOD (unseen domains, GPT-4)",v1,All texts,1554,74.77,79.0,34.88,39.9,25.23
+test_ood,"MAGE OOD (unseen domains, GPT-4)",v1,Human texts,761,80.42,80.72,15.51,64.91,19.58
+test_ood,"MAGE OOD (unseen domains, GPT-4)",v1,AI texts,793,69.36,77.09,53.47,15.89,30.64
+test_ood,"MAGE OOD (unseen domains, GPT-4)",v2,All texts,1554,67.31,82.98,48.07,19.24,32.69
+test_ood,"MAGE OOD (unseen domains, GPT-4)",v2,Human texts,761,62.16,62.79,23.13,39.03,37.84
+test_ood,"MAGE OOD (unseen domains, GPT-4)",v2,AI texts,793,72.26,99.65,72.01,0.25,27.74
+test_modern,Modern AI (unseen 2025-26 models),v1,All texts,299,87.63,53.05,3.68,83.95,12.37
+test_modern,Modern AI (unseen 2025-26 models),v1,Human texts,150,92.0,96.38,3.33,88.67,8.0
+test_modern,Modern AI (unseen 2025-26 models),v1,AI texts,149,83.22,4.84,4.03,79.19,16.78
+test_modern,Modern AI (unseen 2025-26 models),v2,All texts,299,65.89,77.66,24.41,41.47,34.11
+test_modern,Modern AI (unseen 2025-26 models),v2,Human texts,150,72.0,87.04,9.33,62.67,28.0
+test_modern,Modern AI (unseen 2025-26 models),v2,AI texts,149,59.73,66.29,39.6,20.13,40.27

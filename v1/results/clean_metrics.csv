@@ -1,0 +1,6 @@
+detector,detector_name,accuracy,precision_human,precision_ai,recall_human,recall_ai,f1,auroc,n
+loglik,Log-Likelihood,97.87,97.99,97.74,97.73,98.0,97.87,99.59,1500
+rank,Rank,81.0,86.5,76.94,73.47,88.53,82.33,91.25,1500
+logrank,Log-Rank,97.47,97.59,97.34,97.33,97.6,97.47,99.63,1500
+entropy,Entropy,87.73,89.09,86.47,86.0,89.47,87.94,95.04,1500
+distilroberta,DistilRoBERTa,97.73,100.0,95.66,95.47,100.0,97.78,99.96,1500

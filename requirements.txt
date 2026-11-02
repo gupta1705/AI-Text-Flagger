@@ -1,0 +1,17 @@
+# AI-Text-Flagger - Python 3.12 dependencies (tested versions in brackets).
+#
+# PyTorch is NOT listed here: install the CUDA build first, from the PyTorch index, e.g.
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu128      [2.11.0+cu128]
+# (CPU-only machines: uv pip install torch). Then:
+#   uv pip install -r requirements.txt
+
+transformers>=5.0,<6        # [5.19.0] GPT-2 / DistilRoBERTa (v5 API: from_pretrained(dtype=...))
+scikit-learn>=1.5           # [1.9.1]  logistic calibration and metrics
+pandas>=2.2                 # [3.0.6]
+numpy>=2.0                  # [2.5.4]
+gradio>=6.0,<7              # [6.30.0] web app (v6 API: theme/css passed to launch())
+matplotlib>=3.8             # [3.11.2] robustness chart
+tqdm>=4.66                  # [4.70.1] progress bars and ETAs
+pytest>=8                   # [9.1.1]  test suite
+python-dotenv>=1.0          # only for src.modern_set (reads GROQ_API_KEY from an env file)
+openai>=1.0                 # only for src.modern_set (Groq's OpenAI-compatible API)

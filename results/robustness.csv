@@ -1,0 +1,46 @@
+detector,detector_name,condition,op,level,aua,mean_variant_accuracy,n_texts,k
+loglik,Log-Likelihood,Normal,none,0,97.87,97.87,1500,10
+loglik,Log-Likelihood,Swap 1,swap,1,94.4,96.62,1500,10
+loglik,Log-Likelihood,Swap 2,swap,2,89.33,93.13,1500,10
+loglik,Log-Likelihood,Drop 1,drop,1,95.13,96.93,1500,10
+loglik,Log-Likelihood,Drop 2,drop,2,90.87,93.97,1500,10
+loglik,Log-Likelihood,Add 1,add,1,94.2,96.3,1500,10
+loglik,Log-Likelihood,Add 2,add,2,88.47,92.07,1500,10
+loglik,Log-Likelihood,Key 1,key,1,94.47,96.47,1500,10
+loglik,Log-Likelihood,Key 2,key,2,88.8,92.4,1500,10
+rank,Rank,Normal,none,0,81.0,81.0,1500,10
+rank,Rank,Swap 1,swap,1,45.73,79.03,1500,10
+rank,Rank,Swap 2,swap,2,38.13,71.67,1500,10
+rank,Rank,Drop 1,drop,1,48.33,80.06,1500,10
+rank,Rank,Drop 2,drop,2,41.07,74.87,1500,10
+rank,Rank,Add 1,add,1,40.6,75.3,1500,10
+rank,Rank,Add 2,add,2,36.6,65.39,1500,10
+rank,Rank,Key 1,key,1,41.13,76.97,1500,10
+rank,Rank,Key 2,key,2,37.6,67.96,1500,10
+logrank,Log-Rank,Normal,none,0,97.47,97.47,1500,10
+logrank,Log-Rank,Swap 1,swap,1,95.27,97.03,1500,10
+logrank,Log-Rank,Swap 2,swap,2,90.0,93.94,1500,10
+logrank,Log-Rank,Drop 1,drop,1,95.6,97.13,1500,10
+logrank,Log-Rank,Drop 2,drop,2,91.67,94.98,1500,10
+logrank,Log-Rank,Add 1,add,1,94.67,96.74,1500,10
+logrank,Log-Rank,Add 2,add,2,88.67,93.11,1500,10
+logrank,Log-Rank,Key 1,key,1,94.87,96.88,1500,10
+logrank,Log-Rank,Key 2,key,2,89.2,93.49,1500,10
+entropy,Entropy,Normal,none,0,87.73,87.73,1500,10
+entropy,Entropy,Swap 1,swap,1,82.6,87.27,1500,10
+entropy,Entropy,Swap 2,swap,2,78.6,86.53,1500,10
+entropy,Entropy,Drop 1,drop,1,83.13,87.31,1500,10
+entropy,Entropy,Drop 2,drop,2,79.67,86.69,1500,10
+entropy,Entropy,Add 1,add,1,82.53,87.35,1500,10
+entropy,Entropy,Add 2,add,2,78.07,86.45,1500,10
+entropy,Entropy,Key 1,key,1,82.07,87.17,1500,10
+entropy,Entropy,Key 2,key,2,77.47,86.21,1500,10
+distilroberta,DistilRoBERTa,Normal,none,0,97.73,97.73,1500,10
+distilroberta,DistilRoBERTa,Swap 1,swap,1,97.33,98.46,1500,10
+distilroberta,DistilRoBERTa,Swap 2,swap,2,97.2,98.83,1500,10
+distilroberta,DistilRoBERTa,Drop 1,drop,1,97.33,98.38,1500,10
+distilroberta,DistilRoBERTa,Drop 2,drop,2,97.2,98.82,1500,10
+distilroberta,DistilRoBERTa,Add 1,add,1,97.4,98.59,1500,10
+distilroberta,DistilRoBERTa,Add 2,add,2,97.0,98.89,1500,10
+distilroberta,DistilRoBERTa,Key 1,key,1,97.27,98.47,1500,10
+distilroberta,DistilRoBERTa,Key 2,key,2,97.07,98.85,1500,10
